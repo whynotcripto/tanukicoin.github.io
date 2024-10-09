@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <title>TanukiCoin</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <h1>TanukiCoin</h1>
-        <p>El token de la buena fortuna y las travesuras</p>
-    </header>
-    <section id="about">
-        <h2>About TanukiCoin</h2>
-        <p>Descripción del token...</p>
-    </section>
-    <section id="how-to-buy">
-        <h2>How to Buy</h2>
-        <p>Instrucciones...</p>
-    </section>
-    <section id="tokenomics">
-        <h2>Tokenomics</h2>
-        <p>Detalles...</p>
-    </section>
-    <footer>
-        <p>Conéctate con nosotros:</p>
-        <a href="https://twitter.com/tanukicoin">Twitter</a>
-    </footer>
+    <div class="container">
+        <!-- Header con fondo llamativo -->
+        <header class="text-center bg-warning py-4 mb-4 rounded">
+            <h1>TanukiCoin</h1>
+            <p>El token de la buena fortuna y las travesuras</p>
+        </header>
+
+        <!-- Sección de contenido con columnas -->
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h2>About TanukiCoin</h2>
+                    <p>TanukiCoin es el token inspirado en la figura del tanuki, símbolo de buena fortuna y diversión.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h2>How to Buy</h2>
+                    <p>Puedes comprar TanukiCoin en los principales exchanges compatibles con Solana.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h2>Tokenomics</h2>
+                    <p>Explora los detalles económicos de TanukiCoin, incluyendo su suministro y distribución.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer con enlace a redes sociales -->
+        <footer class="text-center bg-dark text-white py-3 mt-4">
+            <p>Conéctate con nosotros:</p>
+            <a href="https://twitter.com/tanukicoin" class="text-warning">Twitter</a>
+        </footer>
+    </div>
 </body>
 </html>
